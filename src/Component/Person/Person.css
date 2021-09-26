@@ -1,0 +1,51 @@
+.person{
+    background-color: #004643;;
+    color: #fffffe;
+    border: black;
+    padding: 20px;
+    border-radius: 5px;
+ 
+     
+}
+.person:hover{
+   box-shadow: 0 0 10px 4px rgb(252, 248, 248) ;
+}
+.person img{
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.info{ 
+    padding-left: 30px;
+    line-height: 40px;
+    text-align: left;
+    height: 300px;
+}
+.info h2,h4{
+   margin-right: 20px;
+   display: inline;
+}
+.info span{
+    font-weight: 500;
+    font-size: 15px;
+    color: #fffffe;
+}
+#hire{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+    font-size: 15px;
+    align-items: center;
+    padding: 10px 20px;
+    width: 60%;
+    bottom: 0;
+    position: static;
+   background-color: white;
+   color: #004643;
+   border-radius: 5px;
+   border: 0;
+}
+#hire:hover{
+    background-color: rgb(161, 167, 182);
+    color: white;
+}
